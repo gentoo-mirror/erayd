@@ -15,8 +15,20 @@ RDEPEND="${DEPEND}"
 S="${WORKDIR}/dbeaver"
 
 src_install() {
-  [ -d "${D}/opt/bin" ] || mkdir -p "${D}/opt/bin"
-  mv "${S}" "${D}/opt/${P}"
-  cd "${D}/opt/bin"
-  ln -s "../${P}/dbeaver" "dbeaver"
+	insinto "/opt/${P}"
+	exeinto "/opt/${P}"
+	doins -r \
+		"artifacts.xml" \
+		"dbeaver.desktop" \
+		"dbeaver.ini" \
+		"dbeaver.png" \
+		"icon.xpm" \
+		"readme.txt" \
+		"configuration" \
+		"features" \
+		"licenses" \
+		"p2" \
+		"plugins"
+	doexe "dbeaver"
+	dosym "/opt/${P}/dbeaver" "/usr/bin/dbeaver"
 }
