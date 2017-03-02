@@ -1,4 +1,4 @@
-dev-db/dbeaver-bin 3.8.5 4.0.0 4.0.1: Graphical development / admin tool for many popular database engines.
+dev-db/dbeaver-bin 3.8.5 4.0.0 4.0.1 4.0.2: Graphical development / admin tool for many popular database engines.
 dev-libs/libec 0.2.2: A simple PKI library leveraging the crypto routines available in libsodium.
 dev-python/hubstorage 0.22.0: Scrapinghub HubStorage client library
 dev-python/ruamel-ordereddict 0.4.9: A version of dict that keeps keys in insertion resp. sorted order
