@@ -1,9 +1,3 @@
-dev-db/dbeaver-bin 3.8.5 4.0.0 4.0.1 4.0.2: Graphical development / admin tool for many popular database engines.
-dev-libs/libec 0.2.2: A simple PKI library leveraging the crypto routines available in libsodium.
+dev-db/dbeaver-bin 4.0.2: Graphical development / admin tool for many popular database engines.
 dev-php/pecl-libsodium 1.0.6: PHP bindings for dev-libs/libsodium
-dev-python/hubstorage 0.22.0: Scrapinghub HubStorage client library
-dev-python/ruamel-ordereddict 0.4.9: A version of dict that keeps keys in insertion resp. sorted order
-dev-python/ruamel-yaml 0.11.7: A YAML parser / emitter
-dev-python/scrapinghub 1.7.0: Scrapinghub python API
-net-misc/shub 2.0.2: Scrapinghub command line client
 sys-fs/ddumbfs 1.1: A fast, inline deduplication filesystem
