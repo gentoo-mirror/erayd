@@ -1,3 +1,1 @@
-dev-db/dbeaver-bin 4.2.4 4.2.5 4.2.6: Graphical development / admin tool for many popular database engines.
 dev-php/pecl-libsodium 1.0.6: PHP bindings for dev-libs/libsodium
-sys-fs/ddumbfs 1.1: A fast, inline deduplication filesystem
