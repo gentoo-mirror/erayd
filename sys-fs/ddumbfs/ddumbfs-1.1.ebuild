@@ -1,6 +1,5 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI="6"
 DESCRIPTION="A fast, inline deduplication filesystem"
@@ -10,5 +9,5 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
-DEPEND="app-crypt/mhash >=sys-fs/fuse-2.8"
+DEPEND="app-crypt/mhash >=sys-fs/fuse-2.8:0"
 RDEPEND="${DEPEND}"
