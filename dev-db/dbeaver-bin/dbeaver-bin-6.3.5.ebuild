@@ -28,5 +28,5 @@ src_install() {
 		"plugins" \
 		"readme.txt"
 	doexe "dbeaver"
-	test "/opt/${P}/dbeaver" "/usr/bin/dbeaver"
+	dosym "/opt/${P}/dbeaver" "/usr/bin/dbeaver"
 }
