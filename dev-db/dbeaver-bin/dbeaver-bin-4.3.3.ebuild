@@ -29,5 +29,5 @@ src_install() {
 		"p2" \
 		"plugins"
 	doexe "dbeaver"
-	dosym "/opt/${PV}/dbeaver" "/usr/bin/dbeaver"
+	test "/opt/${P}/dbeaver" "/usr/bin/dbeaver"
 }
