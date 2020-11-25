@@ -10,5 +10,5 @@ RDEPEND=dev-libs/openssl:0=[-bindist] sys-apps/pcsc-lite
 RESTRICT=!test? ( test )
 SLOT=0/1
 SRC_URI=https://github.com/Yubico/yubico-piv-tool/archive/yubico-piv-tool-2.0.0.tar.gz
-_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
 _md5_=fb66cef0c0c6fd20f361aca079b276cb
