@@ -1,4 +1,3 @@
 dev-db/dbeaver-bin 4.3.3 5.3.5 6.3.5 7.0.5 7.1.3: Graphical development / admin tool for many popular database engines.
-dev-php/pecl-libsodium 1.0.6: PHP bindings for dev-libs/libsodium
 sys-auth/yubico-piv-tool 2.0.0: Command line tool for the YubiKey PIV application
 sys-fs/ddumbfs 1.1: A fast, inline deduplication filesystem
